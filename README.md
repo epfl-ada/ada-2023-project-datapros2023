@@ -14,13 +14,13 @@ The purpose of this project is to investigate and uncover hidden factors contrib
 
 ## Research questions
 
-2. **Does the gender of the character has, or have had, a signifiacante impact on the performance of a movie, either in rating or box office ?** Look at the character and gender, relate it to the rating or the box office to look at the evolution of gender diversity in the most succesfull movies and try to gauge correlations.
+1. **Does the gender of the character has, or have had, a signifiacante impact on the performance of a movie, either in rating or box office ?** Look at the character and gender, relate it to the rating or the box office to look at the evolution of gender diversity in the most succesfull movies and try to gauge correlations.
 
-3. **How does the fame of actors relate to the movie’s box office success?** Try to model actor's fame as a new feature and use this metric to predict box office success.
+2. **How does the fame of actors relate to the movie’s box office success?** Try to model actor's fame as a new feature and use this metric to predict box office success.
 
-4. **Is there a way to relate movies' motives and topics to their box office revenue?** By employing LDA topic modelling on film summaries, coherent clusters of common plot ideas can be extracted. These ideas do not correspond one-to-one to the film genre, though some correlation is to be expected.
+3. **Is there a way to relate movies' motives and topics to their box office revenue?** By employing LDA topic modelling on film summaries, coherent clusters of common plot ideas can be extracted. These ideas do not correspond one-to-one to the film genre, though some correlation is to be expected.
 
-
+4. **Are there discernible trend shifts in factors influencing box office success, and can they be explained?** 
 
 ## Additional datasets
 - **IMDb Datasets**: 
