@@ -38,13 +38,13 @@ The python module cpi is used to adjust box office revenues for inflation with t
 
 - **C.** Make sure each column of the dataframe has a uniform data type.
 
-**2. Modeling actors fame and prominence**
+**2. Investigation of actors specific informations and prominence**
 
-- **A.** Process and analyze each actor’s data to calculate a 'Fame Score' for each actor, according to their career span, mean revenue, weighted mean rating and number of movies they starred in.
+- **A.** Process and analyze each actor’s data to calculate a 'Fame Score' for each actor, according to their career span, mean revenue, weighted mean rating and number of movies they starred in. This did not end in a single feature, but lead to investigation of relation in revenue and actor informations.
 
-- **B.** Construct a regression model to find optimal weights for determining the ‘Fame score’ .
+- **B.** Construct different regression between actor feature and the revenue and rating of movies.
 
-- **C.** Explore the relation between the fame score of the cast and movie box office success.
+- **C.** Explore actor gender representation and it's relation with the box office and the rating of a movie.
 
 **3. How do movies' motives relate to the revenue?**
 
@@ -54,33 +54,34 @@ The python module cpi is used to adjust box office revenues for inflation with t
 
 - **C.** Explore the properties of the topics and establish their influence on the revenue.
 
-## Proposed timeline
+## Executed timeline
 
 24/11 :
-- Actor fame score done.
-- LDA algorithm in progress.
-- Overview plot ready.
+- Investigated potential implementation of the fame score. Dropped features.
+- Planning ahead.
 
 01/12 :
-- Progress/done the LDA.
-- Analysis of actor prominence. 
-- Setup for hypothesis testing.
+- Brainstorming on the data story setup and idea.
+- Start of the analysis and plotting related to genre, gender and actor factors.
+- Checking out deep learning approaches to topic modelling.
 
 08/12 :
-- LDA algorithm done.
-- Finishing hypothesis testing.
-- Starting website.
+- Creation of the website.
+- Creating of website ready plot and story coherent developpement.
+- Reverting to LDA, adding TF-IDF.
+- Adding regression to plot for a better presentation on the website.
 
 15/12 :
-- Hypothesis analysis regarding gender and diversity.
-- Hard progress on the website.
-- Starting the final README.md.
+- Introduction of the story on the website and general developpement.
+- Creation of animated graphs designed for website.
+- Answering some more hypothesis related to actor experience.
+- Investigation and analysis with the new results from LDA.
 
 22/12:
-- Website done, story done.
-- README.md done.
-- Clearing up the Notebook.
-- Getting in the Christmas mood. (Very important)
+- Finalising story.
+- Cleaning and clearing code.
+- Fusing personal notebook into the final notebook.
+- Updating the previous READ.ME
 
 ## Organization within team
 
@@ -98,45 +99,47 @@ The python module cpi is used to adjust box office revenues for inflation with t
 <tbody>
   <tr>
     <td style="text-align: center;">Adam</td>
-    <td>1. Analyze the box office depending on genres, movie languages, country of initial release, runtime and release date.<br>
-    2. Analyze the correlation of movies financial successes and their ratings<br> 
-    3. Generate interactive plots with buttons using Plotly when relevant
+    <td>1. Analyzed the box office depending on genres, movie languages, country of initial release, runtime and release date.<br>
+    2. Analyzed the correlation of movies financial successes and their ratings<br> 
+    3. Generated interactive plots with buttons using Plotly when relevant to split depending on genre.
     </td>
   </tr>
   <tr>
     <td style="text-align: center;">Dusan</td>
-    <td>1. Process the movie summaries using NLP<br>
-    2. Extract topic, motives and main emotions from the summaries processing<br>
-    3. Inspect possible influences of story features to the movie box office<br>
-    4. Contact friends in the film industry (directors/DPs/procucers) for further insights
+    <td>1. Processed the movie summaries using NLP<br>
+    2. Extracted topic, motives and main emotions from the summaries processing<br>
+    3. Inspected possible influences of story features to the movie box office<br>
+    4. Contacted friends in the film industry (directors/DPs/procucers) for further insights - none gained.
     </td>
   </tr>
   <tr>
     <td style="text-align: center;">Gilles</td>
-    <td>1. Study the overall impact of gender, cast diversity on the box office<br>
-    2. Consider and assess ethical questions regarding cast diversity and box office revenues<br>
-    3. Analyse whether certain genres are more sensible to gender representation and has a bigger impact in box office.<br>
-    4. Build html backend and web interface for the Data story
+    <td>1. Studied the overall impact of gender, cast diversity on the box office<br>
+    2. Considered and assessed ethical questions regarding cast diversity and box office revenues<br>
+    3. Analyse the tendencies throught time and the recent evolution of gender representation.<br>
+    4. Assisted with the story concept and the website.<br>
+    5. Assisted other group memmber in plotting and story developpement.
     </td>
   </tr>
   <tr>
     <td style="text-align: center;">Marko</td>
-    <td>1. Generate a new feature called "actor prominence", derived from indirect measurables such as the actor's industry longevity, filmography volumes, and prior box office performances. <br>
-    2. Analyze the shifts in roles of main actors over their carreer span.<br>
-    3. Study the influence of main actors prominence and box office success
+    <td>1. Generated a new feature called "actor prominence", derived from indirect measurables such as the actor's industry longevity, filmography volumes, and prior box office performances. This is a scrapped feature. <br>
+    2. Analyzed the shifts in roles of main actors over their carreer span.<br>
+    3. Studied the influence of main actors prominence and box office success.
 </td>
   </tr>
   <tr>
     <td style="text-align: center;">Romain</td>
-    <td>1. Supplement the main dataset with movie ratings.<br>
-    2. Adjust box office revenues for inflation<br>
-    3. Study the trend of the box office over the years. <br>
-    4. Detect cycles and sudden changes in trend shifts for the box office, cast diversity and movie genres over the years.<br>
-    5. Find plausible explanations for trend shifts such as financial crisis, wars or technological disruptions.
+    <td>1. Supplemented the main dataset with movie ratings.<br>
+    2. Adjusted box office revenues for inflation<br>
+    3. Studied the trend of the box office over the years. <br>
+    4. Created the Website and major part in the story writing<br>
+    5. Assisted other member in the realisation of intereactive plots and regressions.
     </td>
   </tr>
 </tbody>
 </table>
+
 
 ## References
 [1] David A. Cook, _A History of Narrative Film_, 5th edition, W. W. Norton & Company, 2016. [link](https://ia601805.us.archive.org/15/items/a-history-of-narrative-film-by-david-a.-cook/A%20History%20of%20Narrative%20Film%20by%20David%20A.%20Cook.pdf)
