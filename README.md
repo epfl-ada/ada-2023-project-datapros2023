@@ -1,5 +1,7 @@
 # Box Office Breakdown: Unraveling the Secrets of Cinema's Financial Success
+## Datastory
 
+Join our [meeting](https://rpythoud.github.io/datapros2023/) today at BlockBuster Inc. as we unveil our plan to stack the odds in our favor and head to the direction of the most profitable movie of all time !  
 ## Motivation
 
 Unlike the other arts, cinema stands at a peculiar position between art and industry. Ever since the studio system had been set up and the Golden Age of Hollywood begun, moviemaking inadvertedly shifted towards money-making [1]. Today, it is a multi-billion dollar business.
@@ -63,12 +65,12 @@ The python module cpi is used to adjust box office revenues for inflation with t
 01/12 :
 - Brainstorming on the data story setup and idea.
 - Start of the analysis and plotting related to genre, gender and actor factors.
-- Checking out deep learning approaches to topic modelling.
+- Working on LDA algorithm.
 
 08/12 :
 - Creation of the website.
 - Creating of website ready plot and story coherent developpement.
-- Reverting to LDA, adding TF-IDF.
+- First results with the LDA algorithm.
 - Adding regression to plot for a better presentation on the website.
 
 15/12 :
@@ -109,7 +111,7 @@ The python module cpi is used to adjust box office revenues for inflation with t
     <td>1. Processed the movie summaries using NLP<br>
     2. Extracted topic, motives and main emotions from the summaries processing<br>
     3. Inspected possible influences of story features to the movie box office<br>
-    4. Contacted friends in the film industry (directors/DPs/procucers) for further insights - none gained.
+    4. Contacted friends in the film industry (directors/DPs/procucers) for further insights.
     </td>
   </tr>
   <tr>
